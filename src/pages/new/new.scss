@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    .iForm{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .input{
+            font-size: 15px;
+            padding: 5px;
+        }
+        .button{
+            font-size: 15px;
+            padding: 5px;
+            background-color: rgb(160, 160, 229);
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    }
+    
+}

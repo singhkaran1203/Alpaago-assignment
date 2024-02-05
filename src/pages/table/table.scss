@@ -1,0 +1,38 @@
+.table{
+    display: flex;
+    justify-content: center;
+    .dataTable{
+        max-width: 1024px;
+        margin-top: 50px;
+        .cellAction{
+            display: flex;
+            gap: 5px;
+        }
+        .deleteButton{
+            border: 2px solid red;
+            padding: 5px;
+            background-color: rgb(248, 199, 199);
+            color: red;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+        .toggleButton{
+            border: 2px solid rgb(243, 243, 46);
+            padding: 5px;
+            background-color: rgb(243, 237, 204);
+            color: rgb(151, 151, 38);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .newButton{
+            width: max-content;
+            padding: 5px;
+            border: 1px solid green;
+            border-radius: 5px;
+            background-color: rgb(161, 231, 161);
+            color: green;
+            cursor: pointer;
+        }
+    }
+}
