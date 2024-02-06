@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.2rem;
+    font-size: 20px;
+  }
+  
+  .form input{
+    padding: 0.5rem;
+  }
+  
+  .form button{
+  
+    background-color: rgb(79, 79, 236);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  
+  .form button:hover{
+  
+    background-color: rgb(53, 53, 167);
+    cursor: pointer;
+  
+  }
+  
+  /* HTML: <div class="loader"></div> */
+  .loader {
+    width: 18px;
+    aspect-ratio: 1;
+    background: #3FB8AF;
+    animation:
+      l7-1 1s infinite alternate,
+      l7-2 2s infinite alternate;
+  }
+
+  .App-header {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+  .output{
+    margin-top: 2rem;
+  }
